@@ -7,7 +7,6 @@ Welcome to my GitHub file repository! This space serves as a central hub for sha
 - [About](#about)
 - [Folders](#folders)
 - [How to Use](#how-to-use)
-- [Contribute](#contribute)
 - [License](#license)
 
 ## About
@@ -33,17 +32,6 @@ Feel free to navigate through the folders to find what you're looking for.
 
 3. **Contributing:**
    - If you have suggestions, improvements, or want to contribute, feel free to open an issue or submit a pull request.
-
-## Contribute
-
-Contributions are welcome! If you find an issue, have a suggestion, or want to add your own files, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your modifications.
-4. Submit a pull request with a clear description of your changes.
-
-I appreciate any contributions to make this repository more valuable.
 
 ## License
 
