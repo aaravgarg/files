@@ -1,0 +1,236 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Aarav Garg} \\ \vspace{1pt}
+    \small +1 (765)-543-8630 $|$ \href{mailto:gargaarav79@gmail.com}{\underline{gargaarav79@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/aaravgarg}{\underline{linkedin.com/in/aaravgarg}} $|$
+    \href{https://github.com/aaravgarg}{\underline{github.com/aaravgarg}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{West Lafayette, IN}
+      {Bachelor of Science in Robotics Engineering (GPA 3.91)}{Expected Graduation - 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework}: C, Siemens NX, Electrical Systems, Industrial Robot Programming, Statics, Dynamics}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Founding President}{March 2024 -- Present}
+      {\href{https://humanoidrobot.club/}{Humanoid Robot Club Purdue}}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{First group of students building a walking bipedal humanoid robot capable of space exploration.}
+        \resumeItem{Raised \$150,000+ and 800+ members within 6 months of launch; now one of the largest Purdue tech orgs.}
+        \resumeItem{Innovating bipedal motion by integrating a prosthetic ankle to improve adaptability on uneven terrains.}
+        \resumeItem{Leading the integration of electrical systems and embedded software, including power distribution, IMU-based balance control, and actuator-driven movement, utilizing Jetson Nano.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+      {Undergraduate Research Assistant}{August 2024 -- Present}
+      {MARS Lab [NSF-funded project under Dr. Yu She]}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Engineered underwater gliding robot for exploring cavities in icebergs–using Siemens NX.}
+        \resumeItem{Integrated Arduino Mega with actuators and sensors; programmed the robot in C++.}
+        \resumeItem{Designed and manufactured a custom Printed Circuit Board (PCB) to make the electrical system compact and streamline the overall assembly process.}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {Technical Project Manager}{September 2023 -- August 2024}
+      {Sphero Swarm (Purdue Robotics Club)}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Launched NSF-funded (\$30k) project to develop framework for controlling Sphero robots to simulate polymers.}
+        \resumeItem{Led 30 team members across 5 technical subteams. Developed control algorithms for swarm control using ESP32.}
+        \resumeItem{Optimized computer vision feedback loops to achieve precise movement with a layer of collision avoidance.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Founder \& CEO}{January 2021 -- December 2023}
+      {Tech Nuttiez}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Ed-tech startup for robotics education. Led team of 30+ people. Built mobile app in Flutter + Firebase.}
+        \resumeItem{1.2 Million+ students impacted and 15,000+ active users from 185+ countries.}
+      \resumeItemListEnd
+      
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://www.instructables.com/Automated-Robotic-Arm-That-Learns-Ft-Tinkercad-Ard/}{\underline{Robotic Arm That Learns}}} $|$ \emph{Arduino Mega 2560, C++, KiCad, Siemens NX}}{}
+          \resumeItemListStart
+            \resumeItem{Programmed the arm with Arduino Mega 2560 using inverse kinematics for smooth movement.}
+            \resumeItem{Designed custom PCB in KiCad that integrates potentiometers and servo motors for precise control and feedback.}
+            \resumeItem{Engineered the arm and control panel in NX, incorporating the EEZYbotARM framework for stability.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://www.instructables.com/Spice-Box-That-Helps-You-Cook-Faster/}{\underline{Smart Spice Box}}} $|$ \emph{Arduino Uno, C++, KiCad, Siemens NX}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a state-machine algorithm to control 999 unique states with 3 tactile buttons using an Arduino Uno.}
+            \resumeItem{Utilized Siemens NX to design the enclosure, enhancing user ergonomics and compatibility with the electronics.}
+            \resumeItem{Awarded \#1 prize in an international Autodesk Innovation Challenge.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://www.instructables.com/Pocket-Weather-Station-Your-Self-Care-Weather-Assi/}{\underline{Pocket Weather Station}}} $|$ \emph{Arduino Nano, C++, KiCad, Siemens NX}}{}
+          \resumeItemListStart
+            \resumeItem{Designed compact handheld device to measure real-time weather conditions using DHT11 and Arduino Nano.}
+            \resumeItem{Modified design to use DHT22 sensor to increase meteorological reading accuracy from 97\% to 99.67\%.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Java, Python, C/C++, Flutter, Firebase, SQL, MATLAB, Arduino, ROS, Verilog} \\
+     \textbf{Platforms}{: Solidworks, Siemens NX, Mechanical CAD/CAM, Altium, KiCad, GitHub, Agile, Computer Architecture} \\
+     \textbf{Hardware}{: System/Board (PCB) Design, Analog Circuit Design, Schematic Design, CAN, SPI, UART, I2C, Ultrasound, LiDAR, ECU Design, Structural Analysis, Testing, Power Systems, RF Circuit Design, ASIC, Camera Sensor, Thermal} \\
+     \textbf{Algorithms}{: Motion Planning, Pathfinding, Collision Avoidance, Feedback Control Systems, SLAM, PID} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
